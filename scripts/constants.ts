@@ -45,6 +45,12 @@ export const SYSTEM_CONTRACTS: ISystemContracts = {
         lang: Language.Yul,
         path: 'precompiles'
     },
+    P256VERIFY: {
+        address: '0x0000000000000000000000000000000000000019',
+        codeName: 'P256VERIFY',
+        lang: Language.Yul,
+        path: 'precompiles'
+    },
     bootloader: {
         // Bootloader has EmptyContract code
         address: '0x0000000000000000000000000000000000008001',
